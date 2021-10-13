@@ -25,8 +25,8 @@ spec:
             secretKeyRef:
               name: mongodb-secret
               key: mongo-root-username
-        - name: MOGO_INITDB_ROOT_PASSWORD
-          valueFrom:
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          valueFrom: 
             secretKeyRef:
               name: mongodb-secret
               key: mongo-root-password
