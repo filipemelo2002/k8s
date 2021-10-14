@@ -39,3 +39,6 @@ mongodb-service         ClusterIP      10.101.116.156   <none>        27017/TCP 
 ```bash
 minikube service NAME-OF-THE-SERVICE
 ```
+## ⚠️ IT'S NOT RECOMMENDED TO USE EXTERNAL SERVICES
+We can use Ingress to forward request from the browser to an internal service.
+https://kubernetes.io/docs/concepts/services-networking/ingress/
